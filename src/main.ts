@@ -7,4 +7,7 @@ import store from "./store";
 import { gsap } from "gsap";
 import VueFormulate from "@braid/vue-formulate";
 
+// Style
+import "./scss/init.scss";
+
 createApp(App).use(store).use(router).use(gsap).use(VueFormulate).mount("#app");
